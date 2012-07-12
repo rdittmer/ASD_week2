@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tee Times>
+	<item>
+		<Course> Course 1</Course>
+		<Reservist>Tim Cald</Reservist>
+		<Number of Games>2</Number>
+		<Location>Front 9</Location>
+		<Date>07/13/2012</Date>
+		<Notes>none</Notes>
+	</item>
+	<item>
+		<Course> Course 3</Course>
+		<Reservist>Jim Car</Reservist>
+		<Number of Games>1</Number>
+		<Location>Back 9</Location>
+		<Date>07/17/2012</Date>
+		<Notes>none</Notes>
+	</item>
+	<item>
+		<Course> Course 2</Course>
+		<Reservist>Sherry Tiley</Reservist>
+		<Number of Games>1</Number>
+		<Location>All 18</Location>
+		<Date>07/24/2012</Date>
+		<Notes>none</Notes>
+	</item>
+	<item>
+		<Course> Course 5</Course>
+		<Reservist>Ares Hacklim</Reservist>
+		<Number of Games>1</Number>
+		<Location>All 18</Location>
+		<Date>07/18/2012</Date>
+		<Notes>none</Notes>
+	</item>
+	<item>
+		<Course> Course 4</Course>
+		<Reservist>Jerry Malk</Reservist>
+		<Number of Games>1</Number>
+		<Location>Front 9</Location>
+		<Date>07/28/2012</Date>
+		<Notes>none</Notes>
+	</item>
+</Tee>
