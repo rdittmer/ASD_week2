@@ -28,6 +28,7 @@
   <div data-role="content"></div>
   <a href="#additem"><img src="img/golf1.png" align="absmiddle" hspace="15%"/></a>
   <a href="#newsStream" data-role="button" data-inset="true">Upcoming Tee Times</a>
+  <a href="#remoteData" data-role="button" data-inset="true" data-ajax="true">Remote Data</a>
   <div data-role="fieldcontain">
     <input type="search" name="searchInput" id="searchInput" value=""/>
   </div>
@@ -300,9 +301,17 @@
                     </div>
     </div>
     
+    <div id="jsonData">
+    	
+        </div>
+    
     <div data-role="button" id="displayData" data-inline="true">View Tee TImes</div>
     <div data-role="button" id="clearData"    data-inline="true">Clear Tee TImes</div>
     <div data-role="button" id="addNew" data-inline="true" class="ui-disabled">Add New Tee Time</div>
+    
+    <div data-role="button" id="jsonButton" data-inline="true" data-ajax="true">View JSON</div>
+        <div data-role="button" id="xmlButton" data-inline="true">View XML</div>
+        <div data-role="button" id="csvButton" data-inline="true">View CSV</div>
     
     <div data-role="footer">
 
@@ -320,12 +329,29 @@
   
 </div>
 
+<div data-role="page" id="remoteData" data-add-back-btn="true" >
+	<div data-role="header" align="center">
+    <span><h3>View Remote Data<img src="img/logo2.png" width="40" height="40" /></h3></span>
+  </div>
+
+	<div data-role="content" id="remoteContent">
+    
+    	<div id="jsonData">
+    	
+        </div>
+    	<div data-role="button" id="jsonButton" data-inline="true" data-ajax="true">View JSON</div>
+        <div data-role="button" id="xmlButton" data-inline="true">View XML</div>
+        <div data-role="button" id="csvButton" data-inline="true">View CSV</div>
+    </div>
+</div>
+
 </body>
 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
 <script src="js/libs/jquery.validate.min.js" type="text/javascript"></script>
 <script src="js/json.js" type="text/javascript"></script>
+<script src="js/ajax.js" type="text/javascript"></script>
 <script src="js/main.js" type="text/javascript"></script>
 
 </html>
